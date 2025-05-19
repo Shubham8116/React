@@ -1,9 +1,13 @@
+import Hello from "./hello";
 
 function App() {
 
 
   return (
-  <h1>Hello Shubham</h1>
+    <>               {/* fragments */}
+  <Hello/>
+  <h2>kaise ho aap</h2>
+  </>          
   )
 }
 
