@@ -19,8 +19,8 @@ function App() {
 // actual change in theme from dark to light or vice versa
   useEffect(()=>
   {
-    document.querySelector('html').classList.remove('light','dark');
-    document.querySelector('html').classList.add(themeMode);
+    document.querySelector('html').classList.remove('light','dark');//first remove light or dark classes, since we have not used light so only dark class will be removed.
+    document.querySelector('html').classList.add(themeMode);//adding dark or light class
 
   },[themeMode])
 
